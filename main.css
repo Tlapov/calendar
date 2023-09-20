@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.days, .weekdays{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 1rem;
+}
+.days div, .weekdays h3{
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+
+main{
+    width: 550px;
+    border: 1px solid red;
+    border-radius: 7px;
+    height: 50%;
+    padding: 1rem;
+    background-color: rgb(19, 13, 13);
+    color: white;
+}
+.month{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+.month-container{
+    display: flex;
+    align-items: center;
+}
+.days div{
+    margin-top: 1rem;
+}
+.days span{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
